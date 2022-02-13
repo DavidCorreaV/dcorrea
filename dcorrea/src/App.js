@@ -1,22 +1,24 @@
-import logo from "./logo.svg";
-import "./App.css";
+import Navbar from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Home from "./components/pages/Home";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Here be dragons! </p>
-        <a
-          className="App-link"
-          href="https://dracostore.co"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          See one of my projects.
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <header>
+          <Navbar />
+        </header>
+        <main className="App-content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
