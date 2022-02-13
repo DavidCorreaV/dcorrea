@@ -27,10 +27,6 @@ body {
     font-family: "Major Mono", sans-serif;
 }
 
-main {
-    margin-top: -4rem;
-}
-
 #descriptor {
     transition: linear 1s;
 }
