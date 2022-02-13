@@ -34,7 +34,3 @@ main {
 #descriptor {
     transition: linear 1s;
 }
-
-.descriptorAnimation {
-    opacity: 0;
-}
