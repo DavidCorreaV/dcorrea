@@ -1,6 +1,8 @@
 import React from "react";
 import guyChilling from "../../assets/guy-chilling.png";
+import guyChillingwebp from "../../assets/guy-chilling.webp";
 import Typewriter from "typewriter-effect";
+import Image from "../shared/Image";
 
 const HeroTypewriter = () => {
   const phrases = [
@@ -17,11 +19,12 @@ const HeroTypewriter = () => {
   return (
     <section className="hero mt-2" style={{ minHeight: "calc(100vh - 4rem)" }}>
       <div className="flex flex-col justify-start align-center z-0 max-w-7xl m-4 p-1 lg:flex-row-reverse lg:gap-12">
-        <img
-          src={guyChilling}
-          alt="Guy sitting with a laptop and a cup of coffee"
-          className="max-w-xs text-center lg:max-w-md"
+        <Image
+          src={guyChillingwebp}
+          fallback={guyChilling}
+          classes="max-w-xs text-center lg:max-w-md"
         />
+
         <div>
           <div className="rowdies text-left">
             <h1>

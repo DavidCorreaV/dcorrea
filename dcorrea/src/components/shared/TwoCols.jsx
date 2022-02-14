@@ -2,15 +2,19 @@ import React from "react";
 
 import SocialBox from "../shared/SocialBox";
 import profile from "../../assets/DavidCorrea.JPG";
+import profilewebp from "../../assets/davidcorrea.webp";
 import Toolbox from "./Toolbox";
+import Image from "./Image";
+
 const TwoCols = () => {
   return (
     <div>
       <section className=" container flex flex-col justify-start align-center z-0 mx-auto my-0 lg:my-36 lg:flex-row-reverse lg:gap-12">
-        <img
-          src={profile}
+        <Image
+          src={profilewebp}
+          fallback={profile}
           alt="Portrait of David Correa"
-          className="text-center lg:max-w-md mask mask-square border-2 m-8"
+          classes="text-center lg:max-w-md mask mask-square border-2 m-8"
         />
         <div className="mx-8">
           <h2 className="rowdies text-5xl text-left lg:text-left lg:text-5xl lg:p-2">

@@ -13,14 +13,14 @@ const Toolbox = ({ size }) => {
   return (
     <div className="flex gap-6 flex-wrap justify-between p-2">
       <a
-        href="http://https://www.w3.org/"
+        href="https://https://www.w3.org/"
         rel="nofollow noopener noreferrer"
         aria-label="Html5"
       >
         <ImHtmlFive2 size={size} />
       </a>
       <a
-        href="http://https://www.w3.org/"
+        href="https://https://www.w3.org/"
         rel="nofollow noopener noreferrer"
         aria-label="CSS"
       >
@@ -34,63 +34,63 @@ const Toolbox = ({ size }) => {
         <SiJavascript size={size} />
       </a>
       <a
-        href="http://https://www.kernel.org/"
+        href="https://https://www.kernel.org/"
         rel="nofollow noopener noreferrer"
         aria-label="GNU/Linux"
       >
         <ImTux size={size} />
       </a>
       <a
-        href="http://https://www.nginx.com/"
+        href="https://https://www.nginx.com/"
         rel="nofollow noopener noreferrer"
         aria-label="nginx"
       >
         <SiNginx size={size} />
       </a>
       <a
-        href="http://https://www.mysql.com/"
+        href="https://https://www.mysql.com/"
         rel="nofollow noopener noreferrer"
         aria-label="mysql"
       >
         <DiMysql size={size} />
       </a>
       <a
-        href="http://https://www.php.net/"
+        href="https://https://www.php.net/"
         rel="nofollow noopener noreferrer"
         aria-label="php"
       >
         <FaPhp size={size} />
       </a>
       <a
-        href="http://https://www.wordpress.org/"
+        href="https://https://www.wordpress.org/"
         rel="nofollow noopener noreferrer"
         aria-label="Wordpress"
       >
         <ImWordpress size={size} />
       </a>
       <a
-        href="http://https://www.elementor.com/"
+        href="https://www.elementor.com/"
         rel="nofollow noopener noreferrer"
         aria-label="Elementor"
       >
         <FaElementor size={size} />
       </a>
       <a
-        href="http://https://www.mongodb.com/"
+        href="https://https://www.mongodb.com/"
         rel="nofollow noopener noreferrer"
         aria-label="MongoDB"
       >
         <SiMongodb size={size} />
       </a>
       <a
-        href="http://https://www.mongodb.com/"
+        href="https://nodejs.org"
         rel="nofollow noopener noreferrer"
         aria-label="Node Js"
       >
         <SiNodedotjs size={size} />
       </a>
       <a
-        href="http://https://www.mongodb.com/"
+        href="https://www.reactjs.org/"
         rel="nofollow noopener noreferrer"
         aria-label="React Js"
       >

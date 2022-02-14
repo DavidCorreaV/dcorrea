@@ -1,16 +1,19 @@
 import React from "react";
 
 import envelope from "../../assets/envelope.png";
+import envelopewebp from "../../assets/envelope.webp";
 import { VscMail } from "react-icons/vsc";
+import Image from "./Image";
 
 const Cta = () => {
   return (
     <section className="lg:mt-6 lg:mb-36 lg:py-36 text-center bg-secondary mt-12 pb-12">
       <div className="container mx-auto flex flex-col items-center justify-center lg:flex-row">
-        <img
-          src={envelope}
-          alt="Portrait of David Correa"
-          className="max-w-[60%] lg:max-w-md mt-12 lg:mt-0"
+        <Image
+          src={envelopewebp}
+          fallback={envelope}
+          classes="max-w-[60%] lg:max-w-md mt-12 lg:mt-0"
+          alt="Picture of an envelope"
         />
         <div className="text-center flex flex-col justify-center align-center">
           <h2 className="major mx-8 text-4xl lg:text-5xl lg:max-w-xl lg:mx-auto">
