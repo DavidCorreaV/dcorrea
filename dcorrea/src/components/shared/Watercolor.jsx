@@ -6,7 +6,7 @@ import watercolorwebp from "../../assets/watercolor.webp";
 const Watercolor = () => {
   return (
     <section
-      className="container mx-auto lg:text-center flex flex-col justify-center align-center lg:my-1 bg-[length:700px_700px] lg:bg-contain bg-no-repeat bg-center lg:py-32 gap-10 w-screen"
+      className="container mx-auto lg:text-center flex flex-col justify-center align-center lg:my-1 mb-8 bg-[length:700px_700px] lg:bg-contain bg-no-repeat bg-center lg:py-32 gap-10 w-screen"
       style={{ backgroundImage: `url(${watercolorwebp})` }}
     >
       <h1 className="p-2 major mt-10 mx-8 text-4xl lg:text-5xl lg:max-w-xl lg:mx-auto bg-white bg-opacity-50 lg:leading-relaxed">

@@ -10,9 +10,9 @@ const Cta = () => {
     <section className="lg:mt-6 lg:mb-36 lg:py-36 text-center bg-secondary mt-12 pb-12">
       <div className="container mx-auto flex flex-col items-center justify-center lg:flex-row">
         <Image
-          src={envelopewebp}
+          source={envelopewebp}
           fallback={envelope}
-          classes="max-w-[60%] lg:max-w-md mt-12 lg:mt-0"
+          classes="max-w-[60%] lg:max-w-md mt-8 lg:mt-0"
           alt="Picture of an envelope"
         />
         <div className="text-center flex flex-col justify-center align-center">

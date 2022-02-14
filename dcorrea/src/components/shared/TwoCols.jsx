@@ -11,10 +11,11 @@ const TwoCols = () => {
     <div>
       <section className=" container flex flex-col justify-start align-center z-0 mx-auto my-0 lg:my-36 lg:flex-row-reverse lg:gap-12">
         <Image
-          src={profilewebp}
+          style={{ maxWidth: "calc(100vw - 4rem)" }}
+          source={profilewebp}
           fallback={profile}
           alt="Portrait of David Correa"
-          classes="text-center lg:max-w-md mask mask-square border-2 m-8"
+          classes="text-center lg:max-w-md mask mask-square border-2"
         />
         <div className="mx-8">
           <h2 className="rowdies text-5xl text-left lg:text-left lg:text-5xl lg:p-2">

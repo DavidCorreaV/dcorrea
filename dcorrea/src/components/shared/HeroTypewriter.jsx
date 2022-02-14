@@ -20,7 +20,7 @@ const HeroTypewriter = () => {
     <section className="hero mt-2" style={{ minHeight: "calc(100vh - 4rem)" }}>
       <div className="flex flex-col justify-start align-center z-0 max-w-7xl m-4 p-1 lg:flex-row-reverse lg:gap-12">
         <Image
-          src={guyChillingwebp}
+          source={guyChillingwebp}
           fallback={guyChilling}
           classes="max-w-xs text-center lg:max-w-md"
           alt="Guy sitting with a laptop drinking coffee"
