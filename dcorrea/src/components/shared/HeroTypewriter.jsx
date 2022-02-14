@@ -23,6 +23,7 @@ const HeroTypewriter = () => {
           src={guyChillingwebp}
           fallback={guyChilling}
           classes="max-w-xs text-center lg:max-w-md"
+          alt="Guy sitting with a laptop drinking coffee"
         />
 
         <div>
