@@ -3,11 +3,10 @@ import { FaGithubAlt, FaBitbucket, FaLinkedinIn } from "react-icons/fa";
 
 const SocialBox = () => {
   return (
-    <div className="flex">
+    <div className="flex gap-2 justify-start p-2">
       <a
         href="https://www.github.com/DavidCorreaV"
         aria-label={`Github link`}
-        aria-hidden="true"
         className="btn btn-ghost btn-sm rounded-btn"
         rel="noreferrer"
         target="_blank"
@@ -17,7 +16,6 @@ const SocialBox = () => {
       <a
         href="https://www.bitbucket.com/DavidCorrea"
         aria-label={`Bitbucket link`}
-        aria-hidden="true"
         className="btn btn-ghost btn-sm rounded-btn"
         rel="noreferrer"
         target="_blank"
@@ -27,7 +25,6 @@ const SocialBox = () => {
       <a
         href="https://www.linkedin.com/in/david-correa-vanegas-633b40b6/"
         aria-label={`LinkedIn link`}
-        aria-hidden="true"
         className="btn btn-ghost btn-sm rounded-btn"
         rel="noreferrer"
         target="_blank"
