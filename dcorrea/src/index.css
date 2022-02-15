@@ -27,6 +27,7 @@ body {
     font-family: "Major Mono Display", sans-serif;
 }
 
-#descriptor {
-    transition: linear 1s;
+.tabs-content>p {
+    margin-top: 1em;
+    margin-bottom: 1em;
 }

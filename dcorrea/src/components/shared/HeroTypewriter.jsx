@@ -37,7 +37,7 @@ const HeroTypewriter = () => {
               </span>
             </h1>
           </div>
-          <div className="max-w-xs rowdies text-3xl pl-4 h-10 lg:text-5xl lg:max-w-lg">
+          <div className="max-w-xs rowdies text-3xl pl-4 h-10 mb-16 lg:text-5xl lg:max-w-lg">
             <Typewriter
               className="max-w-sm"
               options={{
