@@ -19,7 +19,7 @@ const TwoCols = () => {
         </h2>
         <p className="text-lg mt-4 p-2">
           I love learning new things, and figuring out answers to new questions.
-          I'm driven, curious, and my non-traditional background gives me a
+          I'm driven, curious, and my non-traditional background gives me an
           unique outlook.
         </p>
         <p className="text-lg my-2 p-2">

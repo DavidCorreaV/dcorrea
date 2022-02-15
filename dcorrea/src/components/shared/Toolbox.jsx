@@ -13,14 +13,14 @@ const Toolbox = ({ size }) => {
   return (
     <div className="flex gap-6 flex-wrap justify-between p-2">
       <a
-        href="https://https://www.w3.org/"
+        href="https://www.w3.org/"
         rel="nofollow noopener noreferrer"
         aria-label="Html5"
       >
         <ImHtmlFive2 size={size} />
       </a>
       <a
-        href="https://https://www.w3.org/"
+        href="https://www.w3.org/"
         rel="nofollow noopener noreferrer"
         aria-label="CSS"
       >
@@ -34,14 +34,14 @@ const Toolbox = ({ size }) => {
         <SiJavascript size={size} />
       </a>
       <a
-        href="https://https://www.kernel.org/"
+        href="https://www.kernel.org/"
         rel="nofollow noopener noreferrer"
         aria-label="GNU/Linux"
       >
         <ImTux size={size} />
       </a>
       <a
-        href="https://https://www.nginx.com/"
+        href="https://www.nginx.com/"
         rel="nofollow noopener noreferrer"
         aria-label="nginx"
       >
@@ -55,14 +55,14 @@ const Toolbox = ({ size }) => {
         <DiMysql size={size} />
       </a>
       <a
-        href="https://https://www.php.net/"
+        href="https://www.php.net/"
         rel="nofollow noopener noreferrer"
         aria-label="php"
       >
         <FaPhp size={size} />
       </a>
       <a
-        href="https://https://www.wordpress.org/"
+        href="https://www.wordpress.org/"
         rel="nofollow noopener noreferrer"
         aria-label="Wordpress"
       >
@@ -76,7 +76,7 @@ const Toolbox = ({ size }) => {
         <FaElementor size={size} />
       </a>
       <a
-        href="https://https://www.mongodb.com/"
+        href="https://www.mongodb.com/"
         rel="nofollow noopener noreferrer"
         aria-label="MongoDB"
       >

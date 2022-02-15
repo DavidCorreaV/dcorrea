@@ -4,10 +4,9 @@ const Long = () => {
   return (
     <>
       <p>
-        Well, ok. I hope you have some time to spare. Let's begin. I was born
-        and raised in Medellín, Colombia. I started coding at age 8 on an old
-        Windows 3.1 machine with BASIC. Even then, I was learning IF's and
-        GOTO's from old Commodore magazines found in my school's library.
+        I was born and raised in Medellín, Colombia. I started coding at age 8
+        on an old Windows 3.1 machine with BASIC. Even then, I was learning IF's
+        and GOTO's from old Commodore magazines found in my school's library.
       </p>
       <p>
         At the time, I wrote simple games mostly, and a few rogue-ish text
@@ -32,14 +31,14 @@ const Long = () => {
         {" "}
         I have completed thousands of hours of online material, in several
         platforms, from Bootcamps to masterclasses. My favorite has to be Kent
-        C. Dodds's "Epic React" and anything my Wes Bos. I still have a huge
+        C. Dodds's "Epic React" and anything by Wes Bos. I still have a huge
         pile stuff to learn, and that makes me very happy.
       </p>
       <p>
         After some time, I started taking freelance work, mostly simple sites
         and ecommerce websites on Wordpress and Woocommerce. In the way I
         acquired a lot of experience in basic graphic design, tools like Sketch,
-        Figma, and AdobeXD, and Wordpress and the LAMP/LEMP Stack, including php
+        Figma, and AdobeXD, Wordpress and the LAMP/LEMP Stack, including php
         theme and plugin development. I'm currently working on the MERN Stack,
         and I'm specially interested in applications in Headless CMS and as a
         Front end for modern REST or GraphQL based CMS.
